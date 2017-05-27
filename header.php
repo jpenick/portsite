@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Jessica Penick</title>
-	<link rel="stylesheet" href="mainstyle.css">
+	<link rel="stylesheet" href="styles/moblmainstyle.css">
 	<meta name="author" content="Jessica Penick">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
@@ -13,15 +13,22 @@
 			<div id="hdrimg">
 				<!-- the header img goes here-->
 			</div>
-			<nav>
-				<ul>
-					<li><a href="index.php">Home Page</a></li>
-					<li><a href="aboutpage.php">About</a></li>
-					<li><a href="projectpage.php">Projects</a></li>
-					<li><a href="blogpage.php">Blog</a></li>
-					<li><a href="contactpage.php">Contact</a></li>
-				</ul>
-			</nav>
+			<div class="container">
+			<!--https://www.google.com/amp/scotch.io/amp/tutorials/building-a-morphing-hamburger-menu-with-css -->
+				<input id="toggle" type="checkbox">
+				<label class="toggle-container" for="toggle">
+					<span class="button button-toggle"></span>
+				</label>
+				<nav>
+					<ul>
+						<li><a href="index.php">Home Page</a></li>
+						<li><a href="aboutpage.php">About</a></li>
+						<li><a href="projectpage.php">Projects</a></li>
+						<li><a href="blogpage.php">Blog</a></li>
+						<li><a href="contactpage.php">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
 		</header>
 	</div>
 

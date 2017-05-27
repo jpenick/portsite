@@ -1,0 +1,42 @@
+/* Basic styles */
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #F6C390;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  margin: 2em auto 0;
+  width: 100%;
+  height: 75%;
+  background-color: #533557;
+  overflow: hidden;
+}
+
+// To hide the checkbox
+#toggle {
+  display: none;
+}
+
+// Styles for the 'open' state, if the checkbox is checked
+/*#toggle:checked {
+  // Any element you need to change the style if menu is open goes here, using the sibling selector (~) as follows
+
+  // Styles for the open navigation menu, for example
+  & ~ .nav {
+  //JP this is the format for sass (scss) which we cant run on our phone
+}*/
+
