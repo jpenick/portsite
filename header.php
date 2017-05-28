@@ -13,20 +13,13 @@
 			<div id="hdrimg">
 				<!-- the header img goes here-->
 			</div>
-			<div class="container">
-			<!--https://www.google.com/amp/scotch.io/amp/tutorials/building-a-morphing-hamburger-menu-with-css -->
-				<input id="toggle" type="checkbox">
-				<label class="toggle-container" for="toggle">
-					<span class="button button-toggle"></span>
-				</label>
-				<nav>
-					<ul>
-						<li><a href="index.php">Home Page</a></li>
-						<li><a href="aboutpage.php">About</a></li>
-						<li><a href="projectpage.php">Projects</a></li>
-						<li><a href="blogpage.php">Blog</a></li>
-						<li><a href="contactpage.php">Contact</a></li>
-					</ul>
+			<div>
+				<nav class="nav">
+					<a class="nav-item" href="index.php">Home</a>
+					<a class="nav-item" href="aboutpage.php">About</a>
+					<a class="nav-item" href="projectpage.php">Projects</a>
+					<a class="nav-item" href="blogpage.php">Blog</a>
+					<a class="nav-item" href="contactpage.php">Contact</a>
 				</nav>
 			</div>
 		</header>
